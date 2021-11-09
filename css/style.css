@@ -236,41 +236,46 @@ color: rgb(208, 43, 30);
 }
 
 
-.st{
+#st{
   margin: 5%;
-  background-color: rgb(107, 102, 90)
+
 
 }
 
 
-.ta{
+#ta{
   margin: 5%;
 }
 
-.la{
+#la{
   margin: 5%;
 }
 
-.ar{
+#ar{
   margin: 5%;
 }
 
-.ba{
+#ba{
   margin: 5%;
 }
 
-.tu{
+#tu{
   margin: 5%;
 }
 
-.gr{
+#gr{
   margin: 5%;
 }
 
-.ty{
+#ty{
   margin: 5%;
 }
 
-.ma{
+#ma{
   margin: 5%;
+}
+
+.toppenknapp{
+  color: rgb(208, 43, 30);
+    text-decoration: none;
 }

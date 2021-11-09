@@ -235,7 +235,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 3/4;
 }
 
-.st{
+#st{
   grid-column:1/5 ;
   grid-row: 4/10;
 }
@@ -245,7 +245,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 5/10;
 }
 
-.ta{
+#ta{
   grid-column:1/5 ;
   grid-row: 11/17;
 }
@@ -255,7 +255,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 12/17;
 }
 
-.la{
+#la{
   grid-column:1/5 ;
   grid-row: 18/24;
 }
@@ -265,7 +265,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 19/24;
 }
 
-.ar{
+#ar{
   grid-column:1/5 ;
   grid-row: 25/31;
 }
@@ -275,7 +275,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 26/31;
 }
 
-.ba{
+#ba{
   grid-column:1/5 ;
   grid-row: 32/38;
 }
@@ -285,7 +285,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 33/38;
 }
 
-.tu{
+#tu{
   grid-column:1/5 ;
   grid-row: 39/45;
 }
@@ -295,7 +295,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 40/45;
 }
 
-.gr{
+#gr{
   grid-column:1/5 ;
   grid-row: 46/52;
 }
@@ -305,7 +305,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 47/52;
 }
 
-.ty{
+#ty{
   grid-column:1/5 ;
   grid-row: 53/59;
 }
@@ -315,7 +315,7 @@ grid-auto-rows: minmax(30px, auto);
   grid-row: 54/59;
 }
 
-.ma{
+#ma{
   grid-column:1/5 ;
   grid-row: 60/66;
 }
