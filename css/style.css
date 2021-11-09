@@ -1,0 +1,481 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*det här är hur min nav ska se ut. z index betyder att den ska lägga sig framför och sticky att den ska vara fast och följa med sidan när du scrollar, top 0 menas med att den ska sitta på toppen av sidan*/
+/* denna är i flex*/
+nav {
+  background-color:rgb(0, 0, 0);
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+  position: sticky;
+  top:0;
+  z-index: 4;
+
+
+}
+
+/*knappar blir mörkare när man har pilen över */
+a:hover {
+  color:rgb(92, 10, 10);
+}
+
+/*hemknappen ska sitta lite längre åt vänster */
+.home {
+  margin-left: 30px;
+}
+
+
+.color {
+/*color:rgb(139, 0, 0);*/
+color: rgb(208, 43, 30);
+  text-decoration: none;
+
+}
+
+/* .color är menyraden*/
+
+/* nu börjar generella classer som går över flera sidor*/
+.container {
+
+  background-color:black;
+  color: white;
+}
+
+.rubrik {
+  font-size: 250%;
+  color: white;
+  text-align: center;
+  align-self:self-end;
+  z-index: 3;
+  font-family: 'Pangolin', cursive;
+}
+
+.imgz {
+  width: 100%;
+}
+
+/* index.html*/
+.welcome {
+  width: 100%;
+  height: 100%;
+padding-top: 5%;
+padding-left: 5%;
+
+}
+
+.intro {
+  width: 100%;
+  height: 100%;
+padding-left: 5%;
+
+}
+
+.firstseason{
+  width: 100%;
+  height: 100%;
+}
+
+
+.a {
+  width:100% ;
+  height: 100%;
+  padding-top: 5%;
+  padding-left: 5%;
+
+}
+
+.b {
+  width:100% ;
+  height: 100%;
+    font-size: 30px;
+    padding-left: 5%;
+    text-align: center;
+    color: rgb(208, 43, 30);
+    text-decoration-line: none;
+
+}
+
+
+.imga{
+  width:100% ;
+  height: 100%;
+  padding-top: 5%;
+
+}
+.imgb{
+  width:100% ;
+  height: 100%;
+}
+
+.imgc{
+  width:100% ;
+  height: 100%;
+}
+
+
+/*hotd stylesheet start */
+
+.containerforhotd {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+/* ifall jag skulle ha en bakgrundsbild
+
+html {
+  background: url(img_hotd.jpg) no-repeat center fixed;
+  background-size: cover;
+  z-index: 1;
+}
+
+*/
+
+
+
+.release{
+  margin-top: 5%;
+font-weight: bold;
+}
+
+.hotd{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.hotdtrailer{
+justify-self: center;
+}
+
+.c{
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.imgd{
+  width:100% ;
+  height: 100%;
+
+
+}
+
+.imge{
+  width:100% ;
+  height: 100%;
+
+}
+.imgf{
+  width:100% ;
+  height: 100%;
+
+}
+
+.imgg{
+  width:100% ;
+  height: 100%;
+
+}
+.imgh{
+  width:100% ;
+  height: 100%;
+
+}
+.imgi{
+  width:100% ;
+  height: 100%;
+
+}
+.imgj{
+  width:100% ;
+  height: 100%;
+
+}
+.imgk{
+  width:100% ;
+  height: 100%;
+
+}
+.imgl{
+  width:100% ;
+  height: 100%;
+
+}
+.imgm{
+  width:100% ;
+  height: 100%;
+
+}
+
+/* family.html*/
+
+/* kom ihåg! Justify (hö/vä) & align (upp/ned)- content (hela containern), -items (samtliga items), -self (enskilda items)*/
+
+
+#containerforfamily{
+  background-color:black;
+  color: white;
+
+}
+
+.familjenamna{
+  margin: 5%;
+  margin-bottom: 10%;
+  font-size: 150%;
+  width:100% ;
+  height: 100%;
+}
+
+.familjenamnb{
+  margin: 5%;
+  margin-bottom: 10%;
+  font-size: 150%;
+  width:100% ;
+  height: 100%;
+}
+
+.familjenamnc{
+  margin: 5%;
+  margin-bottom: 10%;
+  font-size: 150%;
+  width:100% ;
+  height: 100%;
+}
+
+.listnamn{
+text-decoration: none;
+color: rgb(208, 43, 30);
+}
+
+/* här är hur de olika familjernas delar ska se ut*/
+#starks{
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#vipa {
+ margin-left: 5%;
+}
+
+
+#starkslist{
+   list-style-type: circle;
+   margin-left: 5%;
+
+}
+
+.starksinfo{
+margin-left: 5%;
+}
+
+.starksimg{
+  width:100% ;
+  height: 100%;
+}
+
+#targaryen{
+font-weight: bold;
+ margin-left: 5%;
+margin-top: 10%;
+}
+
+#vipb {
+ margin-left: 5%;
+}
+
+.targaryeninfo{
+margin-left: 5%;
+}
+
+.targaryenlist{
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.targaryenimg{
+  width:100% ;
+  height: 100%;
+}
+
+#lannister{
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#vipc {
+ margin-left: 5%;
+}
+
+.lannisterinfo{
+margin-left: 5%;
+}
+.lannisterlist{
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.lannisterimg{
+  width:100% ;
+  height: 100%;
+}
+
+#arryn{
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#vipd {
+ margin-left: 5%;
+}
+
+.arryninfo{
+margin-left: 5%;
+}
+.arrynlist{
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.arrynimg{
+  width:100% ;
+  height: 100%;
+}
+
+#baratheon{
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#vipe {
+ margin-left: 5%;
+}
+
+.baratheoninfo{
+margin-left: 5%;
+}
+.baratheonlist{
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.baratheonimg{
+  width:100% ;
+  height: 100%;
+}
+
+#tully{
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#vipf {
+ margin-left: 5%;
+}
+
+.tullyinfo{
+margin-left: 5%;
+}
+.tullylist{
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.tullyimg{
+  width:100% ;
+  height: 100%;
+}
+
+#greyjoy{
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#vipg {
+ margin-left: 5%;
+}
+
+.greyjoyinfo{
+margin-left: 5%;
+}
+.greyjoylist{
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.greyjoyimg{
+  width:100% ;
+  height: 100%;
+}
+
+#tyrell {
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#viph {
+ margin-left: 5%;
+}
+
+.tyrellinfo{
+margin-left: 5%;
+}
+.tyrelllist {
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.tyrellimg{
+  width:100% ;
+  height: 100%;
+}
+
+#martell {
+  font-weight: bold;
+   margin-left: 5%;
+   margin-top: 10%;
+
+}
+
+#vipi {
+ margin-left: 5%;
+}
+.martellinfo{
+margin-left: 5%;
+}
+.martelllist {
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.martellimg{
+  width:100% ;
+  height: 100%;
+}
+
+/* toppenknappen*/
+.toppenknapp{
+  text-decoration: none;
+color: rgb(208, 43, 30);
+margin-top: 15%;
+font-size: 200% ;
+
+}

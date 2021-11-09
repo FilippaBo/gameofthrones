@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav {
+  background-color:rgb(0, 0, 0);
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+  position: sticky;
+  top:0;
+
+
+}
+
+a:hover {
+  color:rgb(92, 10, 10);
+}
+
+.home {
+  margin-left: 30px;
+}
+
+
+.color {
+/*color:rgb(139, 0, 0);*/
+color: rgb(208, 43, 30);
+  text-decoration: none;
+
+}
+
+/* .color är menyraden*/
+
+.container {
+
+  background-color:black;
+  color: white;
+}
+
+.rubrik {
+  font-size: 250%;
+  color: white;
+  text-align: center;
+  align-self:self-end;
+  z-index: 3;
+  font-family: 'Pangolin', cursive;
+}
+
+.imgz {
+  width: 100%;
+}
+
+
+
+/* family..html*/
+/* Justify (hö/vä) & align (upp/ned)- content (hela containern), -items (samtliga items), -self (enskilda items)*/
+
+
+#containerforfamily{
+  background-color:black;
+  color: white;
+
+}
+
+.familjenamn{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.listnamn{
+text-decoration: none;
+color: rgb(208, 43, 30);
+}
+
+
+.st{
+  margin: 5%;
+
+}
+
+
+.ta{
+  margin: 5%;
+}
+
+.la{
+  margin: 5%;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <title>Game of Thrones</title>
+
+<!-- allt inom head är det bakomliggande detaljerna på sidan. det är de som gör alla bokstäver tillgänliga och länkar html till css, m.m -->
+  </head>
+
+<body>
+
+<nav>
+  <a href="index.html" title="home" class="color" ><h2 class="home">Home</h2> </a>
+  <a href="houseofdragons.html" title="house of the dragon" class="color" > <h2>House of the Dragon </h2></a>
+  <a href="family.html" title="familjeträd" class="color"><h2>Familjeträd </h2></a>
+  <!--<a href="summary.html" title="sammanfattningar" class="color"><h2 class="sum">Sammanfattningar </h2></a> -->
+</nav>
+<!--allt inom min nav tillhör menyraden. de är länkar mellan de ollika html sidorna, alla har oxå en gemmensam class "color" vilket jag senare använder i style. -->
+
+<div id="containerforfamily">
+<!-- det här är all info förutom nav. nav använder inte grid utan istllet flexbox. allt inom denna div är placerat i grid.css-->
+<header> </header>
+
+<img src="img/map.jpg" alt="karta med alla hus" class="imgz">
+
+<h2 class="rubrik">De Stora Husen </h2>
+
+<!-- lista med familjenamnen i punktform. den är uppdelad i 3 spalter-->
+
+<ul class="familjenamna">
+  <li><a class="listnamn" href="#starks" >Starks</a></li>
+  <li><a class="listnamn" href="#targaryen">Targaryen</a></li>
+  <li><a class="listnamn" href="#lannister">Lannister</a></li>
+</ul>
+
+<ul class="familjenamnb">
+  <li><a class="listnamn" href="#arryn">Arryn</a></li>
+  <li><a class="listnamn" href="#baratheon">Baratheon</a></li>
+  <li><a class="listnamn" href="#tully">Tully</a></li>
+</ul>
+
+<ul class="familjenamnc">
+  <li><a class="listnamn" href="#greyjoy">Greyjoy</a></li>
+  <li><a class="listnamn" href="#tyrell">Tyrell</a></li>
+  <li><a class="listnamn" href="#martell">Martell</a></li>
+</ul>
+
+<!-- här börjar faktan om familjen stark-->
+<h3 id="starks"> Huset Stark</h3>
+  <p class="starksinfo">Stark har sitt säte i Vinterhed och är det största huset i norra Westeros. Huset Stark styrde som
+ Kungar i norr i tusentals år innan Targaryens kom till makten och erövrade de sju kungadömena. Starks blev sedan herre över Vinterhed och ståthållare över norden. Deras motto är ”Winter Is Coming” och dess vapensköld är en grå skräckvarg på en vit bakgrund. House Stark är känt för sin hederliga hängivenhet till plikt.
+  </p>
+
+<h4 id="vipa"> Viktiga medlemmar </h4>
+<ul id="starkslist">
+  <li>Eddard (Ned) Stark (Lord av Vinterhed, ståthållare över norden)</li>
+  <li>Catelyn Stark (Ned’s fru)</li>
+  <li>Robb Stark (Ned och Catelyns äldsta son, Arvtagare till Vinterhed)</li>
+  <li>Sansa Stark (Ned och Catelyns äldsta dotter, trolovad med kung Joffrey Baratheon)</li>
+  <li>Arya Stark (Ned och Catelyns yngsta dotter)</li>
+  <li>Bran Stark (Ned och Catelyns mellan son)</li>
+  <li>Rickon Stark (Ned och Catelyns yngsta son)</li>
+  <li>Jon Snow (Ned’s oäkta son, medlem i nattvakten)</li>
+  <li>Benjen Stark (Ned’s yngre bror, förste jägare inom nattvakten)</li>
+</ul>
+
+  <img src="img/stark.jpg" alt="huset stark familjeträd" class="starksimg" >
+
+  <!-- här börjar faktan om familjen targaryen-->
+
+<h3 id="targaryen"> Huset Targaryen</h3>
+  <p class="targaryeninfo"> Ursprungligen från Valyria på kontinenten Essos erövrade House Targaryen de sju kungadömena i Westeros och regerade i 300 år genom användning av drakar. Vapenskölden är en röd trehuvad drake på svart, och dess motto är "Fire and blood". Targaryens styre slutade när Robert Baratheon och Ned Stark ledde ett uppror för att avsätta kung Aerys, under vilken kungen dödades av Jaime Lannister. Efteråt tog Robert järntronen, och Aerys två överlevandes barn (Daenerys och Viserys) förvisades till Essos.</p>
+
+<h4 id="vipb"> Viktiga medlemmar </h4>
+<!-- här är listan på medlemmar-->
+
+ <ul class="targaryenlist">
+   <li>Daenerys Targaryen (den Första av Hennes Namn, Bojornas fiende och Drakarnas Moder)</li>
+   <li>Viserys Targaryen (Daenerys bror)</li>
+   <li>Aerys II Targaryen (Daenerys far, före detta kung över de sju rikena, känd som den galne kungen).</li>
+</ul>
+
+  <img src="img/targaryen.jpg" alt="huset targaryen familjeträd" class="targaryenimg" >
+
+  <!-- här börjar faktan om familjen lannister-->
+
+<h3 id="lannister"> Huset Lannister</h3>
+  <p class="lannisterinfo">Huset Lannister sitter vid Casterly klippan i västländerna där det styrde väst tills Targaryens invaderade och erövrade de sju kungadömen. Lannisters är den rikaste familjen i Westeros på grund av guldgruvorna på deras marker. Tywin Lannister, husets chef, fungerade som Hand till kungen under Kung Aerys II Targaryen, tills Robert Baratheon avsatte Targaryens. Huset Lannisters vapen är ett guldlejon på en röd bakgrund och mottot är "Hear Me Roar!"
+  </p>
+
+  <h4 id="vipc"> Viktiga medlemmar </h4>
+  <ul class="lannisterlist">
+    <li>Tywin Lannister ( Lord av Casterly klippan, ståthållare av väst)</li>
+    <li>Cersei Lannister (Tywins dotter, drottning av de sju kungarikena, Jamie'stvillingsyster)</li>
+    <li>Jaime Lannister (Tywins äldsta son, Joffreys Biologiska far, medlem i kungsvakten)</li>
+    <li>Tyrion Lannister (Tywins yngste son, agerande hand och mästare i mynt)</li>
+    <li>Joffrey Baratheon (Cersei äldsta son,tros vara Kung Roberts son, men är  egentligen Jamie's son)</li>
+    <li>Myrcella Baratheon (Cersei’s äldsta dotter, tros vara Kung Roberts dotter, men är egentligen Jamie's dotter)</li>
+    <li>Tommen Baratheon (Cersei’s yngsta son,tros vara Kung Roberts son, men är  egentligen Jamie's son)</li>
+</ul>
+
+  <img src="img/lannister.jpg" alt="huset lannister familjeträd" class="lannisterimg" >
+
+
+<h3 id="arryn"> Huset Arryn</h3>
+  <p class="arryninfo">
+  House Arryn är det största huset i Dalen och sitter i ett litet slott som heter Örnnästet, som ligger högst upp på ett berg. Jon Arryn, husets herre, tjänade kung Robert som kungens hand; Jon förgiftades strax innan Game of Thrones sagan börjar, vilket får Robert att be Ned Stark att bli Hand till kungen. Nu är Jons enda son Robert Lord av Örnnästet, med sin mor Lysa som regent. House Arryns vapen är en vit måne och falk på blått, och dess motto är "As High as Honor".
+  </p>
+
+  <h4 id="vipd"> Viktiga medlemmar </h4>
+<ul class="arrynlist">
+  <li>Jon Arryn (förra hand till kungen)</li>
+  <li>Lysa Arryn (Catelyn’s yngre sister)</li>
+  <li>Robert Arryn (Lysa’s son, lord över örnnästet)</li>
+</ul>
+
+  <img src="img/arryn.jpg" alt="huset arryn familjeträd" class="arrynimg" >
+
+<h3 id="baratheon">Huset Baratheon</h3>
+  <p class="baratheoninfo">Huset Baratheon är Stormlandets viktigaste familj och är det yngsta av de ädla husen. Kung Robert är herre för huset, även om han bor i  huvudstaden King's Landing. Husets officiella säte ligger i Storm's End, och den yngsta av Baratheon -bröderna, Renly, är Lord av Storm's End. Den mellersta Baratheon -brodern, Stannis, är Lord of Draksten, som är en sekundär plats för huset. Huset Baratheons vapen är en svart hjort på en ljusgul bakgrund, och dess motto är "Ours is the Fury".
+  </p>
+
+  <h4 id="vipe"> Viktiga medlemmar </h4>
+   <ul class="baratheonlist">
+    <li>Robert Baratheon ( Kung över de sju kungarikerna))</li>
+    <li>Stannis Baratheon (Robert’s yngre bror, Renley’s äldre bror, Lord av Draksten)</li>
+    <li>Renly Baratheon (yngst av Baratheon bröderna, Lord av Storm’s End)</li>
+   </ul>
+
+  <img src="img/baratheon.jpg" alt="huset baratheon familjeträd" class="baratheonimg" >
+
+
+<h3 id="tully">Huset Tully </h3>
+  <p class="tullyinfo">
+  Huset Tully sitter vid Riverrun i Flodländerna. Catelyn Stark och Lysa Arryn är döttrar till Hoster Tully, Lord av Riverrun. Huset Tullys vapen är en silveröring på blå och röda ränder, och dess motto är "Family, Duty, Honor".
+  </p>
+
+  <h4 id="vipf"> Viktiga medlemmar </h4>
+   <ul class="tullylist">
+    <li>Hoster Tully (Lord av Riverrun, Catelyn och Lysa’s far)</li>
+    <li>Edmure Tully (Hoster’s enda son och arvtagare till Riverrun)</li>
+   </ul>
+
+  <img src="img/tully.jpg" alt="huset tully familjeträd" class="tullyimg" >
+
+<h3 id="greyjoy">Huset Greyjoy</h3>
+ <p class="greyjoyinfo">
+ Sittande i Pyke på  järnöarna blev Huset Greyjoy Lords Paramount på järnöarna efter att Targaryens erövrade Westeros. Tio år innan Game of Thrones börjar ledde Lord Balon Greyjoy ett misslyckat uppror mot kung Robert, varefter Lord Balon fick ge sin yngsta son, Theon, till Starks som gisslan för att bo i Vinterhed för att behålla kontrollen över järnöarna. Huset Greyjoys vapen är en gyllene kraken på svart, och dess motto är "We do not sow."
+ </p>
+
+ <h4 id="vipg"> Viktiga medlemmar </h4>
+  <ul class="greyjoylist">
+   <li>Balon Greyjoy (lord av järnöarna)</li>
+   <li>Theon Greyjoy (Balon’s förstfödde son, arvtagare till järnöarna)</li>
+   <li>Asha Greyjoy (Balon’s enda dotter, äldsta barnet)</li>
+  </ul>
+
+ <img src="img/greyjoy.jpg" alt="huset greyjoy familjeträd" class="greyjoyimg" >
+
+
+<h3 id="tyrell">Huset Tyrell </h3>
+ <p class="tyrellinfo">
+ Tyrell är det största huset i Reach och har sitt säte i Höggården. Targaryens gjorde Tyrells Lords av Höggården efter att kungen av Reach dödades. Kvinnorna i House Tyrell är kända för att vara kloka ledare, vilket framgår av Margaery Tyrells uppväxt till att bli Renly Baratheons fru, sedan förlovad med Joffrey efter Renlys död. House Tyrells vapen är en gyllene ros på en grön bakgrund, och dess motto är "Growing Strong".
+ </p>
+
+ <h4 id="viph"> Viktiga medlemmar </h4>
+  <ul class="tyrelllist">
+   <li> Mace Tyrell (Lordav höggården)</li>
+   <li>Olenna Tyrell (Mace’s mor, även känd som törnedrottningen)</li>
+   <li>Margaery Tyrell (Mace’s dotter, fru till Renly Baratheon, Joffrey och Tommen Baratheon)</li>
+   <li>Loras Tyrell (Mace’s son, arvtagare till huset Tyrell)</li>
+ </ul>
+
+ <img src="img/tyrell.jpg" alt="huset tyrell familjeträd" class="tyrellimg" >
+
+
+<h3 id="martell"> Huset Martell</h3>
+ <p class="martellinfo">
+ Sittande i slottet solspjutet i Dorne, motsatte House Martell erövring av Targaryens och fick förbli regerande; i själva verket var Dorne det enda kungariket som behöll sitt självständighet under erövringen av Targaryen. Martell stöttade Targaryens under Robert Baratheons uppror, men slutade med att svära trohet till Robert efter att han tog järntronen. House Martell isolerade sig från de andra husen på grund av deras ilska och fejd med Lannisters. Vapnet är ett guldspjut som genomborrar en röd sol på en guldig bakgrund, och dess motto är "Unbowed, Unbent, Unbroken."
+ </p>
+
+ <h4 id="vipi"> Viktiga medlemmar </h4>
+  <ul class="martelllist">
+   <li> Doran Martell (Prins av Dorne)</li>
+   <li>Oberyn Martell (Doran’s yngsta bror)</li>
+ </ul>
+
+ <img src="img/martell.jpg" alt="huset martell familjeträd" class="martellimg" >
+
+<!-- det här är en knapp till längst upp där ett element har ett id som matchar href-->
+<a href="#containerforfamily" class="toppenknapp"> Till Toppen</a>
+
+
+
+
+  </div>
+  </body>
+
+</html>

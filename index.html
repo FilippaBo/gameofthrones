@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <title>Game of Thrones</title>
+  </head>
+  <!-- allt inom head är det bakomliggande detaljerna på sidan. det är de som gör alla bokstäver tillgänliga och länkar html till css, m.m -->
+
+<body class="body">
+
+<nav>
+  <a href="index.html" title="home" class="color" ><h2 class="home">Home</h2> </a>
+  <a href="houseofdragons.html" title="house of the dragon" class="color" > <h2>House of the Dragon </h2></a>
+  <a href="family.html" title="familjeträd" class="color"><h2>Familjeträd </h2></a>
+<!--  <a href="summary.html" title="sammanfattningar" class="color"><h2 class="sum">Sammanfattningar </h2></a>-->
+</nav>
+<!--allt inom min nav tillhör menyraden. de är länkar mellan de ollika html sidorna, alla har oxå en gemmensam class "color" vilket jag senare använder i style. -->
+
+<div class="container">
+  <!-- det här är all info förutom nav. nav använder inte grid utan istllet flexbox. allt inom denna div är placerat i grid.css-->
+
+<header> </header>
+<h1 class="rubrik">Game of Thrones</h1>
+<img src="img/ironthrone.jpg" alt="järntronen" class="imgz">
+
+<!-- har samma class "imgz" som övriga bilder på samma ställe på de andra sidorna. de är eftersom sidorna ska se hyvsat lika vilket ger en samhörighetskänsla-->
+
+
+
+<h2 class="welcome"> Välkommen till Game of Thrones universumet </h2>
+<!-- ska vara placerad mot toppen, är en större rubrik (h2) eftersom det ska synas direkt efter h1-->
+
+<iframe  src="https://www.youtube.com/embed/gcTkNV5Vg1E" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="firstseason"></iframe>
+<!-- länk från youtube till videon-->
+
+
+<h3 class="intro">En värld fylld av spänning och äventyr... </h3>
+
+ <p class="a">I ett land där somrarna är decennier långa och vintrarna kan vara en livstid, är det oroligheter. Från den intrigerande södern och de vilda länderna i öster till den frusna norden och den uråldriga muren som skyddar riket från mörkret bortom den, håller två mäktiga familjer på med en katt-och-råtta-lek om vem som ska styra de Sju Kungarikena i Westeros. Medan svek, lust, intriger och övernaturliga krafter skakar dessa kungariken i grunden, kommer kampen om Järntronen att få oförutsedda och långtgående följder. Vintern kommer. Kampen om Järntronen kan börja.
+</p>
+<!-- de flesta bilder och stycken har en class som heter en bokstav. det här är a och därför den över p texten. b ska vara under. anledningen till att jag använder bokstäver istället är för att det ska snabbt och smidigt gå att placera dem och du ser lättare ordningen tycker jag. har olika mellan bilder och p text. tex img a  och a-->
+
+
+<a href="https://se.hbonordic.com/series/game-of-thrones/93903f01-a1af-416b-a1f9-d1b454dcb31b" title="HBO" target="_blank" class="b"> Vill du se mer av serien, klicka här </a>
+
+<!-- en extärn länk till en annan sida-->
+
+<img src="img/dany.jpg" alt="Daenerys Targaryen" class="imga" >
+<img src="img/a.jpg" alt="forest with snow" class="imgb">
+<img src="img/b.jpg" alt="forest with snow" class="imgc">
+<!-- bilder i ordning a, b, c-->
+
+
+  </div>
+  </body>
+
+</html>
