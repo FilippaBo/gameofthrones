@@ -223,28 +223,11 @@ justify-self: center;
 
 }
 
-.familjenamna{
-  margin: 5%;
-  margin-bottom: 10%;
-  font-size: 150%;
-  width:100% ;
-  height: 100%;
-}
+.familjenamn{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
 
-.familjenamnb{
-  margin: 5%;
-  margin-bottom: 10%;
-  font-size: 150%;
-  width:100% ;
-  height: 100%;
-}
-
-.familjenamnc{
-  margin: 5%;
-  margin-bottom: 10%;
-  font-size: 150%;
-  width:100% ;
-  height: 100%;
 }
 
 .listnamn{
@@ -252,230 +235,42 @@ text-decoration: none;
 color: rgb(208, 43, 30);
 }
 
-/* här är hur de olika familjernas delar ska se ut*/
-#starks{
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
+
+.st{
+  margin: 5%;
+  background-color: rgb(107, 102, 90)
 
 }
 
-#vipa {
- margin-left: 5%;
+
+.ta{
+  margin: 5%;
 }
 
-
-#starkslist{
-   list-style-type: circle;
-   margin-left: 5%;
-
+.la{
+  margin: 5%;
 }
 
-.starksinfo{
-margin-left: 5%;
+.ar{
+  margin: 5%;
 }
 
-.starksimg{
-  width:100% ;
-  height: 100%;
+.ba{
+  margin: 5%;
 }
 
-#targaryen{
-font-weight: bold;
- margin-left: 5%;
-margin-top: 10%;
+.tu{
+  margin: 5%;
 }
 
-#vipb {
- margin-left: 5%;
+.gr{
+  margin: 5%;
 }
 
-.targaryeninfo{
-margin-left: 5%;
+.ty{
+  margin: 5%;
 }
 
-.targaryenlist{
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.targaryenimg{
-  width:100% ;
-  height: 100%;
-}
-
-#lannister{
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
-
-}
-
-#vipc {
- margin-left: 5%;
-}
-
-.lannisterinfo{
-margin-left: 5%;
-}
-.lannisterlist{
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.lannisterimg{
-  width:100% ;
-  height: 100%;
-}
-
-#arryn{
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
-
-}
-
-#vipd {
- margin-left: 5%;
-}
-
-.arryninfo{
-margin-left: 5%;
-}
-.arrynlist{
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.arrynimg{
-  width:100% ;
-  height: 100%;
-}
-
-#baratheon{
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
-
-}
-
-#vipe {
- margin-left: 5%;
-}
-
-.baratheoninfo{
-margin-left: 5%;
-}
-.baratheonlist{
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.baratheonimg{
-  width:100% ;
-  height: 100%;
-}
-
-#tully{
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
-
-}
-
-#vipf {
- margin-left: 5%;
-}
-
-.tullyinfo{
-margin-left: 5%;
-}
-.tullylist{
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.tullyimg{
-  width:100% ;
-  height: 100%;
-}
-
-#greyjoy{
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
-
-}
-
-#vipg {
- margin-left: 5%;
-}
-
-.greyjoyinfo{
-margin-left: 5%;
-}
-.greyjoylist{
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.greyjoyimg{
-  width:100% ;
-  height: 100%;
-}
-
-#tyrell {
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
-
-}
-
-#viph {
- margin-left: 5%;
-}
-
-.tyrellinfo{
-margin-left: 5%;
-}
-.tyrelllist {
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.tyrellimg{
-  width:100% ;
-  height: 100%;
-}
-
-#martell {
-  font-weight: bold;
-   margin-left: 5%;
-   margin-top: 10%;
-
-}
-
-#vipi {
- margin-left: 5%;
-}
-.martellinfo{
-margin-left: 5%;
-}
-.martelllist {
-  list-style-type: circle;
-  margin-left: 5%;
-}
-
-.martellimg{
-  width:100% ;
-  height: 100%;
-}
-
-/* toppenknappen*/
-.toppenknapp{
-  text-decoration: none;
-color: rgb(208, 43, 30);
-margin-top: 15%;
-font-size: 200% ;
-
+.ma{
+  margin: 5%;
 }
