@@ -330,3 +330,8 @@ grid-auto-rows: minmax(30px, auto);
   grid-column:5/-1 ;
   grid-row: 61/66;
 }
+
+.toppenknapp{
+  grid-column:1/5 ;
+  grid-row: 67/68;
+}
